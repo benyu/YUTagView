@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6FB364CE26ADF053C7314721"
+               BlueprintIdentifier = "C6BAB7AAEBBDB728A5CEACBC"
                BuildableName = "YUTagView.framework"
                BlueprintName = "YUTagView"
                ReferencedContainer = "container:Pods.xcodeproj">

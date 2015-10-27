@@ -4,18 +4,29 @@ PODS:
   - FBSnapshotTestCase/Core (2.0.6)
   - FBSnapshotTestCase/SwiftSupport (2.0.6):
     - FBSnapshotTestCase/Core
+  - PulsingHalo (0.0.4)
   - YUTagView (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
+  - PulsingHalo (from `https://github.com/shu223/PulsingHalo.git`, tag `0.0.5`)
   - YUTagView (from `../`)
 
 EXTERNAL SOURCES:
+  PulsingHalo:
+    :git: https://github.com/shu223/PulsingHalo.git
+    :tag: 0.0.5
   YUTagView:
     :path: ../
 
+CHECKOUT OPTIONS:
+  PulsingHalo:
+    :git: https://github.com/shu223/PulsingHalo.git
+    :tag: 0.0.5
+
 SPEC CHECKSUMS:
   FBSnapshotTestCase: f53793e19b2782f2948e8597b03ec2bb5aedf5cd
+  PulsingHalo: 67b819b384b792d0f19e15621dd045196cf00f96
   YUTagView: c9cb514b4ebc596d884bd5d712d6fa9818edf46c
 
 COCOAPODS: 0.38.2

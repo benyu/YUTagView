@@ -10,3 +10,5 @@ target 'YUTagView_Tests', :exclusive => true do
 
   pod 'FBSnapshotTestCase'
 end
+
+pod 'PulsingHalo', :git => 'https://github.com/shu223/PulsingHalo.git', :tag => '0.0.5'

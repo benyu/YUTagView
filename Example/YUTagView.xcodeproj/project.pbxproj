@@ -21,6 +21,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9944DB33EA0245184AF2C21A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90C1FD43921B07FC9DC7991 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CBA88ACED1848EBCA7BD6293 /* Pods_YUTagView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BCE91C89D31BC1A846ABA6 /* Pods_YUTagView_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D9B462A1F9BEFFC0F3760B86 /* Pods_YUTagView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F46F28E216310B619E5D071 /* Pods_YUTagView_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		96EBCADEFB9C180B3F669CCC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9F46F28E216310B619E5D071 /* Pods_YUTagView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUTagView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF315B3CC97D71309775DFB1 /* YUTagView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YUTagView.podspec; path = ../YUTagView.podspec; sourceTree = "<group>"; };
+		B90C1FD43921B07FC9DC7991 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				D9B462A1F9BEFFC0F3760B86 /* Pods_YUTagView_Example.framework in Frameworks */,
+				9944DB33EA0245184AF2C21A /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +126,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				9F46F28E216310B619E5D071 /* Pods_YUTagView_Example.framework */,
 				92BCE91C89D31BC1A846ABA6 /* Pods_YUTagView_Tests.framework */,
+				B90C1FD43921B07FC9DC7991 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -305,7 +309,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YUTagView_Example/Pods-YUTagView_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		60A61E47F72307EF95269FA8 /* Copy Pods Resources */ = {
