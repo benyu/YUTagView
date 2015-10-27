@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.6):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.6)
+  - FBSnapshotTestCase/Core (2.0.6)
+  - FBSnapshotTestCase/SwiftSupport (2.0.6):
+    - FBSnapshotTestCase/Core
+  - YUTagView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YUTagView (from `../`)
+
+EXTERNAL SOURCES:
+  YUTagView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: f53793e19b2782f2948e8597b03ec2bb5aedf5cd
+  YUTagView: c9cb514b4ebc596d884bd5d712d6fa9818edf46c
+
+COCOAPODS: 0.38.2

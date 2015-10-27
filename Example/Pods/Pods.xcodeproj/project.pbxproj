@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CDCDBC80C11F70616998F663D9C4CC /* YUTagView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C471F170AFB6DFF320B7C54B9AF213B /* YUTagView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AA1A1D718123FF7E0D17EE0466AF21E /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EDA713A449353F0670424706BD9092 /* FBSnapshotTestCase-dummy.m */; };
+		0AB8275BA4FAF1B88BA0C473F4FCD712 /* Pods-YUTagView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F074CCD53E9382F3321B08356088EB8 /* Pods-YUTagView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D86866CBC6EAF65AC0C5D7EB090E0DE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9A4FE625016DEB42C97227CDD3301B /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1714C86213CC5BD3F5EC7F9A484414DB /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 38115ACA163EFB753E6A7C1CE140A5F4 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		21C20B8C25AEC5ACE4ACC3E97F08EE51 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB79F81F5C6F9575A6623707057F0059 /* SwiftSupport.swift */; };
+		46E6E3AD173832D649E980C7A4E6C5B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC35E1AAE5882F8D445732E0E986D26D /* XCTest.framework */; };
+		48C6A0D2A591A6EC2B763EC9142B5717 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE3B2D9BC513549966479672272E70 /* UIImage+Compare.m */; };
+		4EC59084E2A6DF6FC9F32796F11DB888 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DA21DC42C50A4F981A91522F0D56CCE /* FBSnapshotTestCase.m */; };
+		55528F1CA0ADDA681E9F0027BB2B4121 /* YUTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BF17E31D7B607551CDF57EC4DB96FF /* YUTagView.m */; };
+		5C6A03F0B20602A022EAF011581547C1 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8AD214B160EE2A24D3C796D25EBB33 /* FBSnapshotTestCasePlatform.m */; };
+		5DADCFB94212D19275117F5F83B4F938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160738E2BB7E439BFCDEE2B1ED15E736 /* UIKit.framework */; };
+		60BAF27D13A4D8464648CBD5622B354E /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E70065C15E1C3BFBD55F9E9710BE05AC /* UIImage+Diff.m */; };
+		633F30E30528F766BBCC3054E6D90FAE /* Pods-YUTagView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAA03809ED8C8FEB0B6D09FA4F6851C /* Pods-YUTagView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ED855471507C13D5416EAF89A8AEF0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2878AF393B2A5D4BB1B81894253FB6 /* UIImage+Snapshot.m */; };
+		87C1854410CB174630B7970034C9F459 /* Pods-YUTagView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7566F4312052BE2339BFDEB031C1202 /* Pods-YUTagView_Tests-dummy.m */; };
+		9266B4C08FC3CB7724D13722DD8685BD /* YUTagView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CED4F188D70C63A0740CB35E512AB8C6 /* YUTagView-dummy.m */; };
+		A1B5C7F85B447CFE9BF812C879462F42 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4659B5CEE830BDA960C5C6D22C0FE8A9 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0164E687BB9B938A55C3B2C850CD3E7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3056CACEC27BDE0F9F3BA8B01CA557CA /* QuartzCore.framework */; };
+		B9A9BC88A826BF60B2858997B0E3BDBB /* YUTagView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 560F4AF8BD446B246137F9669D08B278 /* YUTagView.bundle */; };
+		C2DDC17BBA6A934E3C6CA13979777E4B /* Pods-YUTagView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EB8E600CF89B31A8DC0632B45ABE5B /* Pods-YUTagView_Example-dummy.m */; };
+		C99DEBFD957AB1C76FD91004A06EE0AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADB2671FFD51DF6B079D395F695CA95 /* Foundation.framework */; };
+		CB3B0BAB0FE923473FB9A1A586BD1A99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADB2671FFD51DF6B079D395F695CA95 /* Foundation.framework */; };
+		CBA95BF660B144D6FC1FB55F5EDA647C /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E631447EF00157F5CE330B923C966C57 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CE21E4435122A5648789914EE8B9CF1A /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E49BFB1B4E35378854442A1DB81C88 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E2BE4ADA6360F634906834E017D9EB25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADB2671FFD51DF6B079D395F695CA95 /* Foundation.framework */; };
+		EACB5BC628CEC133D1568B7A04F91E5A /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = AF83E86BD5FD6484048BE007C9CFC976 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC93AB3C82D9F09EB3897071BA372F99 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3732C45C5D8966BEF24C72187C2B0967 /* FBSnapshotTestController.m */; };
+		F73ECA90830794888E7943048DD22E54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ADB2671FFD51DF6B079D395F695CA95 /* Foundation.framework */; };
+		F833C893616927AF83EB8EA686E79018 /* YUTagView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3384BF124BDBAEBA405CE9D908ED06E5 /* YUTagView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A0781A8CF24B7493A44EF375F16A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2331D1DD83CD45CDBFBFA2705964FD1C;
+			remoteInfo = "YUTagView-YUTagView";
+		};
+		900CB8D36C25DB572C310C7ECD45E8FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516DFD8D70A9015F367007D4390F7620;
+			remoteInfo = YUTagView;
+		};
+		AEC9BEAC7895CA6BA1581215502196AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77B0670E880C7F608098A0E3A6E7F751;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		FE39FD3A4A2AF980C6A88869C0737835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516DFD8D70A9015F367007D4390F7620;
+			remoteInfo = YUTagView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5B805786AD5C3E769AA390204534C0 /* Pods-YUTagView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUTagView_Example-resources.sh"; sourceTree = "<group>"; };
+		0E30A445BBA9CC38EC1F790693AFE4C8 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		0EAA03809ED8C8FEB0B6D09FA4F6851C /* Pods-YUTagView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YUTagView_Example-umbrella.h"; sourceTree = "<group>"; };
+		160738E2BB7E439BFCDEE2B1ED15E736 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1C471F170AFB6DFF320B7C54B9AF213B /* YUTagView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YUTagView.h; sourceTree = "<group>"; };
+		218BDDFB1899298691CF857E6FD39E79 /* Pods-YUTagView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUTagView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3056CACEC27BDE0F9F3BA8B01CA557CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		32E2398BF5C6AD68832D8B917A539B6E /* Pods-YUTagView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YUTagView_Tests.modulemap"; sourceTree = "<group>"; };
+		3350EA816115A9345E5B760795B349D7 /* Pods-YUTagView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YUTagView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3384BF124BDBAEBA405CE9D908ED06E5 /* YUTagView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YUTagView-umbrella.h"; sourceTree = "<group>"; };
+		3732C45C5D8966BEF24C72187C2B0967 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		38115ACA163EFB753E6A7C1CE140A5F4 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		385D0C94138B3B6AB9C6A63A074CFB88 /* Pods-YUTagView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUTagView_Tests-resources.sh"; sourceTree = "<group>"; };
+		45BF17E31D7B607551CDF57EC4DB96FF /* YUTagView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YUTagView.m; sourceTree = "<group>"; };
+		45EDA713A449353F0670424706BD9092 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		4659B5CEE830BDA960C5C6D22C0FE8A9 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		4A8AD214B160EE2A24D3C796D25EBB33 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		4F074CCD53E9382F3321B08356088EB8 /* Pods-YUTagView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YUTagView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		513391DBF94567989BAA2BDCC707F91E /* Pods_YUTagView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUTagView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		560F4AF8BD446B246137F9669D08B278 /* YUTagView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YUTagView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		583E5B7D86B140C012949C94234C16C9 /* Pods-YUTagView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUTagView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5BBF2A26FD961DA742B67F74AD8F1898 /* YUTagView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YUTagView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA21DC42C50A4F981A91522F0D56CCE /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		60F8AAA457486434BF29803833F525E5 /* Pods_YUTagView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YUTagView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6152CDE457E432DC2AC8177B2057316C /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		61BC0F4EF9827E80CE43746CAA245574 /* Pods-YUTagView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUTagView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		74942BFAEB0DEDA6420AA0147AF5E9B9 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77195B6B901CCF9428AC08D0C0E47511 /* YUTagView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YUTagView.xcconfig; sourceTree = "<group>"; };
+		7A23DA12D9AD8E8BFA42C8869C5C44BE /* Pods-YUTagView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUTagView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7ADB2671FFD51DF6B079D395F695CA95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		80FEE7306D6D38587EB957E61D9FB3BF /* YUTagView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YUTagView.modulemap; sourceTree = "<group>"; };
+		823FFBC2126F364AD1091AEADF8F04DC /* Pods-YUTagView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUTagView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8535D23F64F7B0995DD74BCF4B5109DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B9A4FE625016DEB42C97227CDD3301B /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		8FDE3B2D9BC513549966479672272E70 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		94E3D6AE9380AB88D397386EF3C4E445 /* Pods-YUTagView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YUTagView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		97EB8E600CF89B31A8DC0632B45ABE5B /* Pods-YUTagView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YUTagView_Example-dummy.m"; sourceTree = "<group>"; };
+		AF83E86BD5FD6484048BE007C9CFC976 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE2878AF393B2A5D4BB1B81894253FB6 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		C1509C0C5408C52B38E4F252DF699E30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7566F4312052BE2339BFDEB031C1202 /* Pods-YUTagView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YUTagView_Tests-dummy.m"; sourceTree = "<group>"; };
+		C801F9A911520B0B87C6AEF233D01D44 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		CB79F81F5C6F9575A6623707057F0059 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		CC38453A8D6241BF9EF144F4C683E103 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		CED4F188D70C63A0740CB35E512AB8C6 /* YUTagView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YUTagView-dummy.m"; sourceTree = "<group>"; };
+		CEDD0BE68F16B02CA9A613DD798DB8B3 /* YUTagView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YUTagView-Private.xcconfig"; sourceTree = "<group>"; };
+		D10E757DE6305EED8655D066170BDEFD /* Pods-YUTagView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YUTagView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D35B229B9F44FAA965FE2AF2BB62EFB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B70E9D1009FAF73CF9BB0BFB2D86C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E49BFB1B4E35378854442A1DB81C88 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		E631447EF00157F5CE330B923C966C57 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E70065C15E1C3BFBD55F9E9710BE05AC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		E8176B562A70057F107D4F7AC76A7774 /* Pods-YUTagView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YUTagView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EC35E1AAE5882F8D445732E0E986D26D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F35A3B12C6EBC3473C13F59F426C2F91 /* Pods-YUTagView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YUTagView_Example.modulemap"; sourceTree = "<group>"; };
+		FB53AFBC581F1AB4C9F3A3FA8E5F350E /* YUTagView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YUTagView-prefix.pch"; sourceTree = "<group>"; };
+		FD0EA8A09F1FC9D502B80CC6E0BD0C70 /* Pods-YUTagView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YUTagView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85264EFB9117F4F73CD14AEF94EADB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871E4578B31F3E4553FF7323CE0B9D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3B0BAB0FE923473FB9A1A586BD1A99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA561229DEF5F1AFF1DDDCD3B1D20F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99DEBFD957AB1C76FD91004A06EE0AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CD618034578780E5861CFA97A28B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73ECA90830794888E7943048DD22E54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEDD30863C54F939F4BB38DD46872D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BE4ADA6360F634906834E017D9EB25 /* Foundation.framework in Frameworks */,
+				B0164E687BB9B938A55C3B2C850CD3E7 /* QuartzCore.framework in Frameworks */,
+				5DADCFB94212D19275117F5F83B4F938 /* UIKit.framework in Frameworks */,
+				46E6E3AD173832D649E980C7A4E6C5B5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4428BB839D10EBDF2E75E2E6BE7445D1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20958FC93B60669C43DC0DBE2D0DFA19 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AF83E86BD5FD6484048BE007C9CFC976 /* FBSnapshotTestCase.h */,
+				5DA21DC42C50A4F981A91522F0D56CCE /* FBSnapshotTestCase.m */,
+				4659B5CEE830BDA960C5C6D22C0FE8A9 /* FBSnapshotTestCasePlatform.h */,
+				4A8AD214B160EE2A24D3C796D25EBB33 /* FBSnapshotTestCasePlatform.m */,
+				8B9A4FE625016DEB42C97227CDD3301B /* FBSnapshotTestController.h */,
+				3732C45C5D8966BEF24C72187C2B0967 /* FBSnapshotTestController.m */,
+				38115ACA163EFB753E6A7C1CE140A5F4 /* UIImage+Compare.h */,
+				8FDE3B2D9BC513549966479672272E70 /* UIImage+Compare.m */,
+				E631447EF00157F5CE330B923C966C57 /* UIImage+Diff.h */,
+				E70065C15E1C3BFBD55F9E9710BE05AC /* UIImage+Diff.m */,
+				E4E49BFB1B4E35378854442A1DB81C88 /* UIImage+Snapshot.h */,
+				BE2878AF393B2A5D4BB1B81894253FB6 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		241A8BF0DB89064AFE72025C742191EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D35B229B9F44FAA965FE2AF2BB62EFB9 /* Info.plist */,
+				80FEE7306D6D38587EB957E61D9FB3BF /* YUTagView.modulemap */,
+				77195B6B901CCF9428AC08D0C0E47511 /* YUTagView.xcconfig */,
+				CEDD0BE68F16B02CA9A613DD798DB8B3 /* YUTagView-Private.xcconfig */,
+				CED4F188D70C63A0740CB35E512AB8C6 /* YUTagView-dummy.m */,
+				FB53AFBC581F1AB4C9F3A3FA8E5F350E /* YUTagView-prefix.pch */,
+				3384BF124BDBAEBA405CE9D908ED06E5 /* YUTagView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YUTagView";
+			sourceTree = "<group>";
+		};
+		257FF6F7F9E51D38582F7E652E2804A4 /* Pods-YUTagView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C1509C0C5408C52B38E4F252DF699E30 /* Info.plist */,
+				F35A3B12C6EBC3473C13F59F426C2F91 /* Pods-YUTagView_Example.modulemap */,
+				D10E757DE6305EED8655D066170BDEFD /* Pods-YUTagView_Example-acknowledgements.markdown */,
+				3350EA816115A9345E5B760795B349D7 /* Pods-YUTagView_Example-acknowledgements.plist */,
+				97EB8E600CF89B31A8DC0632B45ABE5B /* Pods-YUTagView_Example-dummy.m */,
+				7A23DA12D9AD8E8BFA42C8869C5C44BE /* Pods-YUTagView_Example-frameworks.sh */,
+				0B5B805786AD5C3E769AA390204534C0 /* Pods-YUTagView_Example-resources.sh */,
+				0EAA03809ED8C8FEB0B6D09FA4F6851C /* Pods-YUTagView_Example-umbrella.h */,
+				823FFBC2126F364AD1091AEADF8F04DC /* Pods-YUTagView_Example.debug.xcconfig */,
+				583E5B7D86B140C012949C94234C16C9 /* Pods-YUTagView_Example.release.xcconfig */,
+			);
+			name = "Pods-YUTagView_Example";
+			path = "Target Support Files/Pods-YUTagView_Example";
+			sourceTree = "<group>";
+		};
+		281BBFC5C1B9C3FFAF52A169AB3F260F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5EF068061EF1E3722D54F4A727FE7D59 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4428BB839D10EBDF2E75E2E6BE7445D1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7ADB2671FFD51DF6B079D395F695CA95 /* Foundation.framework */,
+				3056CACEC27BDE0F9F3BA8B01CA557CA /* QuartzCore.framework */,
+				160738E2BB7E439BFCDEE2B1ED15E736 /* UIKit.framework */,
+				EC35E1AAE5882F8D445732E0E986D26D /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EF068061EF1E3722D54F4A727FE7D59 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1C471F170AFB6DFF320B7C54B9AF213B /* YUTagView.h */,
+				45BF17E31D7B607551CDF57EC4DB96FF /* YUTagView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		627B4D5F30CA2A992FDA2F5A5791B981 /* YUTagView */ = {
+			isa = PBXGroup;
+			children = (
+				281BBFC5C1B9C3FFAF52A169AB3F260F /* Pod */,
+				241A8BF0DB89064AFE72025C742191EF /* Support Files */,
+			);
+			name = YUTagView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A4EF1EBC83D220FB5B12E5E8C35E698F /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				8BA63610C637BD758B5731543359849B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		876B6FCF772A03159C523E09F1CF0815 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				20958FC93B60669C43DC0DBE2D0DFA19 /* Core */,
+				ACA95F57E7BA844285D783434E59BBBC /* Support Files */,
+				F82F93DCEA6DE7CD521E0DA9850C3010 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		8BA63610C637BD758B5731543359849B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				257FF6F7F9E51D38582F7E652E2804A4 /* Pods-YUTagView_Example */,
+				C85E398B9D25992F096FAAB657121A4D /* Pods-YUTagView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A4EF1EBC83D220FB5B12E5E8C35E698F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				627B4D5F30CA2A992FDA2F5A5791B981 /* YUTagView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ACA95F57E7BA844285D783434E59BBBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E30A445BBA9CC38EC1F790693AFE4C8 /* FBSnapshotTestCase.modulemap */,
+				6152CDE457E432DC2AC8177B2057316C /* FBSnapshotTestCase.xcconfig */,
+				C801F9A911520B0B87C6AEF233D01D44 /* FBSnapshotTestCase-Private.xcconfig */,
+				45EDA713A449353F0670424706BD9092 /* FBSnapshotTestCase-dummy.m */,
+				CC38453A8D6241BF9EF144F4C683E103 /* FBSnapshotTestCase-prefix.pch */,
+				8535D23F64F7B0995DD74BCF4B5109DD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		C85E398B9D25992F096FAAB657121A4D /* Pods-YUTagView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D3B70E9D1009FAF73CF9BB0BFB2D86C1 /* Info.plist */,
+				32E2398BF5C6AD68832D8B917A539B6E /* Pods-YUTagView_Tests.modulemap */,
+				FD0EA8A09F1FC9D502B80CC6E0BD0C70 /* Pods-YUTagView_Tests-acknowledgements.markdown */,
+				218BDDFB1899298691CF857E6FD39E79 /* Pods-YUTagView_Tests-acknowledgements.plist */,
+				C7566F4312052BE2339BFDEB031C1202 /* Pods-YUTagView_Tests-dummy.m */,
+				E8176B562A70057F107D4F7AC76A7774 /* Pods-YUTagView_Tests-frameworks.sh */,
+				385D0C94138B3B6AB9C6A63A074CFB88 /* Pods-YUTagView_Tests-resources.sh */,
+				4F074CCD53E9382F3321B08356088EB8 /* Pods-YUTagView_Tests-umbrella.h */,
+				61BC0F4EF9827E80CE43746CAA245574 /* Pods-YUTagView_Tests.debug.xcconfig */,
+				94E3D6AE9380AB88D397386EF3C4E445 /* Pods-YUTagView_Tests.release.xcconfig */,
+			);
+			name = "Pods-YUTagView_Tests";
+			path = "Target Support Files/Pods-YUTagView_Tests";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74942BFAEB0DEDA6420AA0147AF5E9B9 /* FBSnapshotTestCase.framework */,
+				60F8AAA457486434BF29803833F525E5 /* Pods_YUTagView_Example.framework */,
+				513391DBF94567989BAA2BDCC707F91E /* Pods_YUTagView_Tests.framework */,
+				560F4AF8BD446B246137F9669D08B278 /* YUTagView.bundle */,
+				5BBF2A26FD961DA742B67F74AD8F1898 /* YUTagView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F82F93DCEA6DE7CD521E0DA9850C3010 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				CB79F81F5C6F9575A6623707057F0059 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				876B6FCF772A03159C523E09F1CF0815 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		359C748F3B9B731A9552FE9626ECF0CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AB8275BA4FAF1B88BA0C473F4FCD712 /* Pods-YUTagView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A0E62D17C9E062F61B0AC3B0E1D2176 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F833C893616927AF83EB8EA686E79018 /* YUTagView-umbrella.h in Headers */,
+				00CDCDBC80C11F70616998F663D9C4CC /* YUTagView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D245EF62F67F8E65323CBB20E2A215 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACB5BC628CEC133D1568B7A04F91E5A /* FBSnapshotTestCase.h in Headers */,
+				A1B5C7F85B447CFE9BF812C879462F42 /* FBSnapshotTestCasePlatform.h in Headers */,
+				0D86866CBC6EAF65AC0C5D7EB090E0DE /* FBSnapshotTestController.h in Headers */,
+				1714C86213CC5BD3F5EC7F9A484414DB /* UIImage+Compare.h in Headers */,
+				CBA95BF660B144D6FC1FB55F5EDA647C /* UIImage+Diff.h in Headers */,
+				CE21E4435122A5648789914EE8B9CF1A /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB9B82792E5D06B8B02254455A77C280 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633F30E30528F766BBCC3054E6D90FAE /* Pods-YUTagView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2331D1DD83CD45CDBFBFA2705964FD1C /* YUTagView-YUTagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D7A95DE2B28D7AB3533C1DD53370A28 /* Build configuration list for PBXNativeTarget "YUTagView-YUTagView" */;
+			buildPhases = (
+				0B5C73E9C65A06B4108D8308D4F6ACCB /* Sources */,
+				85264EFB9117F4F73CD14AEF94EADB57 /* Frameworks */,
+				6355E002C1B5104E1D490EDDD62AE143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YUTagView-YUTagView";
+			productName = "YUTagView-YUTagView";
+			productReference = 560F4AF8BD446B246137F9669D08B278 /* YUTagView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		406D65B2B1035FBE2D943F7A944178AA /* Pods-YUTagView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 159828B68E901CEC519A435B81E4FA4E /* Build configuration list for PBXNativeTarget "Pods-YUTagView_Example" */;
+			buildPhases = (
+				E041BC8D68C592E3E4C5072535C87F49 /* Sources */,
+				D1CD618034578780E5861CFA97A28B13 /* Frameworks */,
+				CB9B82792E5D06B8B02254455A77C280 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9352CF7B3A407F4576910F7724060397 /* PBXTargetDependency */,
+			);
+			name = "Pods-YUTagView_Example";
+			productName = "Pods-YUTagView_Example";
+			productReference = 60F8AAA457486434BF29803833F525E5 /* Pods_YUTagView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		516DFD8D70A9015F367007D4390F7620 /* YUTagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C72EB725749539ADE4AB485B9F14843A /* Build configuration list for PBXNativeTarget "YUTagView" */;
+			buildPhases = (
+				CF8D5A65474337290ABF7269178F0460 /* Sources */,
+				871E4578B31F3E4553FF7323CE0B9D5B /* Frameworks */,
+				5472B07E191E0AA8C10AF5EAD919DC84 /* Resources */,
+				3A0E62D17C9E062F61B0AC3B0E1D2176 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4063B7A9B577177827B81E24B4E80B63 /* PBXTargetDependency */,
+			);
+			name = YUTagView;
+			productName = YUTagView;
+			productReference = 5BBF2A26FD961DA742B67F74AD8F1898 /* YUTagView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77B0670E880C7F608098A0E3A6E7F751 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A38D5AD2C61F76037415C7DFC50533 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				E7797AF07DA806D84211EB27956B8A98 /* Sources */,
+				ECEDD30863C54F939F4BB38DD46872D6 /* Frameworks */,
+				45D245EF62F67F8E65323CBB20E2A215 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 74942BFAEB0DEDA6420AA0147AF5E9B9 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A9E1C1F7808E909829F48B5760A1E4A /* Pods-YUTagView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20D54F02987243246E1F1E2FCA92CA0 /* Build configuration list for PBXNativeTarget "Pods-YUTagView_Tests" */;
+			buildPhases = (
+				3B8C67C34F6571F8465E0BAFB1428334 /* Sources */,
+				CA561229DEF5F1AFF1DDDCD3B1D20F11 /* Frameworks */,
+				359C748F3B9B731A9552FE9626ECF0CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92F302E07B87706A47B0C85BCF7B112 /* PBXTargetDependency */,
+				DD1AEFAD696342F2768E8D0C7272215C /* PBXTargetDependency */,
+			);
+			name = "Pods-YUTagView_Tests";
+			productName = "Pods-YUTagView_Tests";
+			productReference = 513391DBF94567989BAA2BDCC707F91E /* Pods_YUTagView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77B0670E880C7F608098A0E3A6E7F751 /* FBSnapshotTestCase */,
+				406D65B2B1035FBE2D943F7A944178AA /* Pods-YUTagView_Example */,
+				7A9E1C1F7808E909829F48B5760A1E4A /* Pods-YUTagView_Tests */,
+				516DFD8D70A9015F367007D4390F7620 /* YUTagView */,
+				2331D1DD83CD45CDBFBFA2705964FD1C /* YUTagView-YUTagView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5472B07E191E0AA8C10AF5EAD919DC84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A9BC88A826BF60B2858997B0E3BDBB /* YUTagView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6355E002C1B5104E1D490EDDD62AE143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B5C73E9C65A06B4108D8308D4F6ACCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B8C67C34F6571F8465E0BAFB1428334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C1854410CB174630B7970034C9F459 /* Pods-YUTagView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8D5A65474337290ABF7269178F0460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9266B4C08FC3CB7724D13722DD8685BD /* YUTagView-dummy.m in Sources */,
+				55528F1CA0ADDA681E9F0027BB2B4121 /* YUTagView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E041BC8D68C592E3E4C5072535C87F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2DDC17BBA6A934E3C6CA13979777E4B /* Pods-YUTagView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7797AF07DA806D84211EB27956B8A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA1A1D718123FF7E0D17EE0466AF21E /* FBSnapshotTestCase-dummy.m in Sources */,
+				4EC59084E2A6DF6FC9F32796F11DB888 /* FBSnapshotTestCase.m in Sources */,
+				5C6A03F0B20602A022EAF011581547C1 /* FBSnapshotTestCasePlatform.m in Sources */,
+				EC93AB3C82D9F09EB3897071BA372F99 /* FBSnapshotTestController.m in Sources */,
+				21C20B8C25AEC5ACE4ACC3E97F08EE51 /* SwiftSupport.swift in Sources */,
+				48C6A0D2A591A6EC2B763EC9142B5717 /* UIImage+Compare.m in Sources */,
+				60BAF27D13A4D8464648CBD5622B354E /* UIImage+Diff.m in Sources */,
+				7ED855471507C13D5416EAF89A8AEF0A /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4063B7A9B577177827B81E24B4E80B63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YUTagView-YUTagView";
+			target = 2331D1DD83CD45CDBFBFA2705964FD1C /* YUTagView-YUTagView */;
+			targetProxy = 83A0781A8CF24B7493A44EF375F16A91 /* PBXContainerItemProxy */;
+		};
+		9352CF7B3A407F4576910F7724060397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YUTagView;
+			target = 516DFD8D70A9015F367007D4390F7620 /* YUTagView */;
+			targetProxy = 900CB8D36C25DB572C310C7ECD45E8FF /* PBXContainerItemProxy */;
+		};
+		A92F302E07B87706A47B0C85BCF7B112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 77B0670E880C7F608098A0E3A6E7F751 /* FBSnapshotTestCase */;
+			targetProxy = AEC9BEAC7895CA6BA1581215502196AD /* PBXContainerItemProxy */;
+		};
+		DD1AEFAD696342F2768E8D0C7272215C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YUTagView;
+			target = 516DFD8D70A9015F367007D4390F7620 /* YUTagView */;
+			targetProxy = FE39FD3A4A2AF980C6A88869C0737835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018BD18AC96075562683A04B20F6BA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C801F9A911520B0B87C6AEF233D01D44 /* FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.6;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		27A42897720CAF91E1CA109BDF4117AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BC0F4EF9827E80CE43746CAA245574 /* Pods-YUTagView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YUTagView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YUTagView_Tests/Pods-YUTagView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YUTagView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29D80BE2DA9C5D7BECA1EFE845FE41BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEDD0BE68F16B02CA9A613DD798DB8B3 /* YUTagView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YUTagView/YUTagView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YUTagView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YUTagView/YUTagView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YUTagView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5790FD134AD1CF24F008F72D1722779F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583E5B7D86B140C012949C94234C16C9 /* Pods-YUTagView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YUTagView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YUTagView_Example/Pods-YUTagView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YUTagView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DCB3BAE0AFA3CE3DA4605C241175A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEDD0BE68F16B02CA9A613DD798DB8B3 /* YUTagView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YUTagView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9941EDF56F4511DB4E01855173213577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEDD0BE68F16B02CA9A613DD798DB8B3 /* YUTagView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YUTagView/YUTagView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YUTagView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YUTagView/YUTagView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YUTagView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CBCDC17420241A6007BA9D1FF0121B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E3D6AE9380AB88D397386EF3C4E445 /* Pods-YUTagView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YUTagView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YUTagView_Tests/Pods-YUTagView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YUTagView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6B6A4E19B437307E9A80279653952BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823FFBC2126F364AD1091AEADF8F04DC /* Pods-YUTagView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YUTagView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YUTagView_Example/Pods-YUTagView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_YUTagView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F751C80C879477EEB6C166C6177562D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C801F9A911520B0B87C6AEF233D01D44 /* FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.0.6;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA1F25860F13F09170E13D7DA65E833E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEDD0BE68F16B02CA9A613DD798DB8B3 /* YUTagView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YUTagView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		159828B68E901CEC519A435B81E4FA4E /* Build configuration list for PBXNativeTarget "Pods-YUTagView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B6A4E19B437307E9A80279653952BD /* Debug */,
+				5790FD134AD1CF24F008F72D1722779F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A38D5AD2C61F76037415C7DFC50533 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018BD18AC96075562683A04B20F6BA6D /* Debug */,
+				F751C80C879477EEB6C166C6177562D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D7A95DE2B28D7AB3533C1DD53370A28 /* Build configuration list for PBXNativeTarget "YUTagView-YUTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCB3BAE0AFA3CE3DA4605C241175A7D /* Debug */,
+				FA1F25860F13F09170E13D7DA65E833E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C72EB725749539ADE4AB485B9F14843A /* Build configuration list for PBXNativeTarget "YUTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9941EDF56F4511DB4E01855173213577 /* Debug */,
+				29D80BE2DA9C5D7BECA1EFE845FE41BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20D54F02987243246E1F1E2FCA92CA0 /* Build configuration list for PBXNativeTarget "Pods-YUTagView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A42897720CAF91E1CA109BDF4117AF /* Debug */,
+				9CBCDC17420241A6007BA9D1FF0121B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

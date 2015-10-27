@@ -1,0 +1,25 @@
+{
+  "name": "YUTagView",
+  "version": "0.1.0",
+  "summary": "A short description of YUTagView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/YUTagView",
+  "license": "MIT",
+  "authors": {
+    "benyu": "xide@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/YUTagView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "YUTagView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
